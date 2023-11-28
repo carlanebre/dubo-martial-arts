@@ -1,0 +1,90 @@
+[
+  {
+    "nombreClase": "Dragón Fury Karate",
+    "profesor": "Sensei Juan",
+    "nivelDificultad": "Intermedio",
+    "dia": "Lunes",
+    "hora": "18:00",
+    "categoriaArteMarcial": "Karate"
+  },
+  {
+    "nombreClase": "Taichí",
+    "profesor": "Sensei Yuki Sato",
+    "nivelDificultad": "Principiante",
+    "dia": "Lunes",
+    "hora": "9:00",
+    "categoriaArteMarcial": "Taichí"
+  },
+  {
+    "nombreClase": "Ninja Master Jiu-Jitsu",
+    "profesora": "Profesora Maria",
+    "nivelDificultad": "Avanzado",
+    "dia": "Miércoles",
+    "hora": "20:00",
+    "categoriaArteMarcial": "Jiu-Jitsu"
+  },
+  {
+    "nombreClase": "Thunder Kick Taekwondo",
+    "profesor": "Instructor Carlos",
+    "nivelDificultad": "Principiante",
+    "dia": "Viernes",
+    "hora": "16:30",
+    "categoriaArteMarcial": "Taekwondo"
+  },
+  {
+    "nombreClase": "Samurai Swordsman Judo",
+    "profesor": "Sensei Sakura",
+    "nivelDificultad": "Avanzado",
+    "dia": "Martes",
+    "hora": "19:15",
+    "categoriaArteMarcial": "Judo"
+  },
+  {
+    "nombreClase": "Mystic Kickboxing",
+    "profesor": "Instructora Maya",
+    "nivelDificultad": "Intermedio",
+    "dia": "Viernes",
+    "hora": "19:45",
+    "categoriaArteMarcial": "Kickboxing"
+  },
+  {
+    "nombreClase": "Dragon Breath Krav Maga",
+    "profesor": "Instructor Leo",
+    "nivelDificultad": "Principiante",
+    "dia": "Martes",
+    "hora": "17:30",
+    "categoriaArteMarcial": "Krav Maga"
+  },
+  {
+    "nombreClase": "Tiger Strike Kung Fu",
+    "profesor": "Sifu Ying",
+    "nivelDificultad": "Intermedio",
+    "dia": "Viernes",
+    "hora": "20:30",
+    "categoriaArteMarcial": "Kung Fu"
+  },
+  {
+    "nombreClase": "Phoenix Wing Aikido",
+    "profesor": "Sensei Hiroshi",
+    "nivelDificultad": "Avanzado",
+    "dia": "Miércoles",
+    "hora": "18:45",
+    "categoriaArteMarcial": "Aikido"
+  },
+  {
+    "nombreClase": "Black Belt Muay Thai",
+    "profesor": "Kru Ethan",
+    "nivelDificultad": "Avanzado",
+    "dia": "Martes",
+    "hora": "20:15",
+    "categoriaArteMarcial": "Muay Thai"
+  },
+  {
+    "nombreClase": "Warrior's Meditation Tai Chi",
+    "profesor": "Master Li",
+    "nivelDificultad": "Principiante",
+    "dia": "Viernes",
+    "hora": "18:00",
+    "categoriaArteMarcial": "Tai Chi"
+  }
+]

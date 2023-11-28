@@ -1,0 +1,257 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex1 {
+  flex: 1;
+}
+
+.flex0 {
+  flex: 0;
+}
+
+.flexie {
+  display: flex;
+  gap:28px;
+}
+
+#btn-cambiar {
+  display: flex;
+  align-items: center;
+}
+
+.img-index {
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 280px;
+  height: 280px;
+}
+
+/*@media (max-width: 768px) {
+  .flex1 {
+      margin-left: 0;
+  }
+}*/
+
+.special {
+  margin-top: 20px;
+}
+
+.special a {
+  text-decoration: underline;
+}
+
+.title-mm {
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+
+.title-login {
+  font-size: 20px;
+  font-weight: 600;
+  color: #36454F;
+  text-align: center;
+}
+
+.title-clases {
+  font-size: 28px;
+  /*margin-left: 8px;*/
+  font-weight: 600;
+}
+
+.div-misclases {
+  margin-left: 8px;
+}
+
+.div-misclases p {
+  margin-bottom: 20px;
+}
+
+/* ==========================================================================
+   Botones
+   ========================================================================== */
+
+.btn-login {
+  border-radius: 30px;
+  background: #ff69b4;
+  background: linear-gradient(to right, #ff69b4, #ff8c00);
+  color: white;
+}
+
+.btnc {
+  border-radius: 30px;
+}
+
+.btn-w {
+  white-space: nowrap;
+}
+
+.btn-login:hover {
+  --tw-border-opacity: 1;
+  border-color: var(--fallback-b3, oklch(var(--b3) / var(--tw-border-opacity)));
+  border-color: color-mix(
+    in oklab,
+    oklch(var(--btn-color, #ff69b4) / var(--tw-border-opacity, 1)) 90%, /* Color rosa (#ff69b4) */
+    black
+  );
+  --tw-bg-opacity: 1;
+  background-color: var(--fallback-b3, oklch(var(--b3) / var(--tw-bg-opacity)));
+  background-color: color-mix(
+    in oklab,
+    oklch(var(--btn-color, var(--b2)) / var(--tw-bg-opacity, 1)) 90%,
+    black
+  );
+}
+
+/* ==========================================================================
+   wrapper, nav
+   ========================================================================== */
+
+.wrapper {
+  max-width: 1080px;
+}
+
+.wrapperm {
+  max-width: 1080px;
+  margin: 32px auto;
+  padding: 0 20px;
+}
+
+.wrapper-login {
+  max-width: 400px;
+  margin: 32px auto;
+  width: 400px;
+}
+
+.navbarc {
+  position: relative;
+  z-index: 40;
+}
+
+.navfixed {
+  z-index: 99999;
+  position: fixed;
+  width: 100%;
+}
+
+.profile-wrapper {
+  max-width: 800px;
+  flex: 1;
+}
+
+.profile-card {
+  max-width: 40%;
+  min-width: 289px;
+}
+
+.profile-side {
+  width: 70%;
+}
+
+.clases-wrapper {
+  margin-top: 96px;
+  margin-bottom: 60px;
+}
+
+@media (max-width: 768px) {
+  .clases-wrapper {
+    margin-top: 30px;
+  }
+}
+
+.btn-desplegar {
+  display: inline-block;
+  width: 40px;
+  margin-top: 74px;
+}
+
+/* ==========================================================================
+   Componente Clases
+   ========================================================================== */
+
+   .class-row {
+    gap: 13px;
+    justify-content: space-between;
+  }
+  
+  .class-row:hover {
+    cursor: pointer;
+  }
+  
+  .class-row .icon-clase {
+    font-size: 46px;
+    margin-right: 20px;
+  }
+  
+  .class-group {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .class-teacher {
+    display: flex;
+    font-size: 0.875rem;
+  }
+
+  .teachermini {
+    margin-left: 16px;
+  }
+
+/* ==========================================================================
+   Hero
+   ========================================================================== */
+
+.heroc {
+  min-height: 500px;
+  background: linear-gradient(to right, #ff69b4, #ff8c00);
+  color: white;
+}
+
+.hero-content {
+  max-width: 980px;
+  gap: 4rem;
+}
+
+@media screen and (max-width: 1023px) {
+  /* Estilos para pantallas con un ancho menor a 600px */
+  .hero-content {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero-pics {
+    transform: translate(120px, 29px);
+  }
+}
+
+.hero-pics {
+  pointer-events: all;
+}
+
+.hero-pics img {
+  transition: transform 0.4s ease;
+}
+
+.hero-pics img:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+
+.pic-box {
+  transition: 0.3s;
+}
+
+.hero-pics .pic-box:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.footerc {
+  background: linear-gradient(to right, #ff69b4, #ff8c00);
+}
+
+
