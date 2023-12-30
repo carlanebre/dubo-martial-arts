@@ -4,6 +4,14 @@
 
 Este proyecto consiste en un sitio web interactivo completamente funcional para la empresa DuBo Martial Arts. Esta empresa busca una solución web multi-page que se adapte a sus necesidades específicas, mejorando su presencia digital y optimizando sus procesos operativos.
 
+### Funcionalidades de la web:
+
+- Registro de usuarios: Permite la creación de cuentas personalizadas a los nuevos usuarios.
+- Conexión a base de datos: Integración con una base de datos eficiente y segura.
+- Inicio de sesión: Autenticación de usuarios con acceso a perfiles personalizados.
+- Panel de usuario: Visualización de información específica y opciones de gestión personalizadas.
+- Inscripción a clases: Posibilidad de registrarse en clases con almacenamiento en la base de datos.
+
 ### Tecnologías utilizadas:
 
 - Node.js y Express.js
