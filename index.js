@@ -119,7 +119,7 @@ app.post('/login', async (req, res) => {
 app.get('/perfil', (req, res) => {
   if (!req.session.user) {
     // Si el usuario no está en sesión, redirige al inicio de sesión
-    return res.redirect('/login'); // no estás logueado
+    return res.redirect('/login.html'); // no estás logueado
   }
 
   // Muestra la información del usuario en la pantalla HTML
