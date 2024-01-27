@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
   // Realizar una solicitud GET a la API para obtener los datos del usuario
-  fetch('http://localhost:3000/user')
+  fetch('/user')
     .then(response => response.json())
     .then(userData => {
       // Verificar si se recibieron datos del usuario
