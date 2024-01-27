@@ -1,4 +1,5 @@
 // index.js
+require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
 const session = require('express-session');
@@ -10,12 +11,11 @@ const bodyParser = require('body-parser');
 const bcrypt = require('bcrypt');
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 const path = require('path');
 
 // Conéctate a MongoDB Atlas
-mongoose.connect('mongodb+srv://carla:1234@cluster0.8rbrdg2.mongodb.net/hitodubo?retryWrites=true&w=majority', { useNewUrlParser: true,
-useUnifiedTopology: true })
+mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => {
     console.log('Conexión exitosa a MongoDB Atlas');
   })
@@ -35,7 +35,7 @@ app.use(bodyParser.json());
 
 // Configura express-session
 app.use(session({
-  secret: 'tu_secreto_secreto',
+  secret: process.env.SESSION_SECRET,
   resave: false,
   saveUninitialized: false,
 }));
