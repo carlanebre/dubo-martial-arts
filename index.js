@@ -37,7 +37,7 @@ app.use(bodyParser.json());
 app.use(session({
   secret: process.env.SESSION_SECRET,
   resave: false,
-  saveUninitialized: false,
+  saveUninitialized: true,
 }));
 
 // Configura Passport para utilizar el modelo de Usuario
